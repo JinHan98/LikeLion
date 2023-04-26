@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+    letter-spacing: 10px;
+}
+.image {
+    width: 50%;
+    height: 600px;
+    float: left;
+    box-sizing: border-box;
+    background: linear-gradient( 45deg, green, yellow );
+}
+.image img{
+    width: 100%;
+    margin-top: 15px;
+}
+.script {
+    padding: 10px;
+    height: 600px;
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    background: linear-gradient( 45deg, yellow, green );
+    
+}
+.script .git{
+    margin: 10px;
+    font-size: 15px;
+}
+.script .git img{
+    height: 25px;
+}
+.script .git a{
+    padding: 5px
+}
+.script .input{
+    letter-spacing: 5px;
+}
+.search {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #bbb;
+    text-align: center;
+    padding-top: 75px;
+}
+  
+.search input {
+    width: 30%;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+}
+.search img {
+    position:absolute;
+    left: 916px;
+    top: 85px;
+    width: 17px;
+}
+  
